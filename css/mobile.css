@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (max-width: 768px) {
+
+.carousel{
+    height: 250px;
+}
+.carousel-pic{
+    height: 250px
+}
+.carousel-caption{
+    font-size: 13px;
+}
+.life-cycle-text{
+    font-size: 25px;
+}
+#facts-card-col{
+    margin: 10vw;
+}
+.table-title{
+    margin: 8vw;
+    font-size: 5vw;
+}
+.carousel-indicators{
+    display: none;
+}
+}

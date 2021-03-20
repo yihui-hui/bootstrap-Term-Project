@@ -1,0 +1,77 @@
+body{
+    background-image: url(../mp1_assets/background.png)
+}
+.navbar{
+    border: 2px solid black;
+}
+.jumbotron{
+    margin:top;
+    padding: 20px 75px 20px 75px;
+    background-image:url(../mp1_assets/chicken_background.png);
+    background-size: cover;
+    background-position: top left;
+}
+.carousel{
+    border: 2px solid;
+    border-color: black;
+    background-color: maroon;
+}
+.carousel .carousel-item{
+    height: 300px;
+}
+.carousel .carousel-control{
+    font-size: 40px;
+}
+.life-cycle-text{
+    position: relative;
+    text-align: center;
+    top: 90px;
+    left: 50px;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 40px;
+    right: 515px;
+    margin: 0px 100px;
+}
+.carousel-indicators li{
+    border-radius: 20px;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.facts-img {
+    width: 100%;
+     /*ANIMATION*/
+     transition: .5s;
+     opacity: 1;
+}
+
+.facts-text {
+    position: absolute;
+    top: 150px;
+    /*ANIMATION*/
+    transition: .5s;
+    opacity: 0;
+}
+
+.facts-card:hover .facts-img{
+    opacity: 0.3;
+}
+
+.facts-card:hover .facts-text{
+    opacity: 1;
+}
+.table {
+    background-color:white;
+}
+.navbar-brand{
+    font-size: 17px;
+}
+.stats-img {
+    width:20vw;
+    float: center;
+    margin-left: 36%;
+}
